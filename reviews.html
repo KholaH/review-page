@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reviews</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+      <!-- Review Start-->
+      <div class="review">
+          <span class="review__title">Jimbo</span><span class="review__time-duration">3 days ago</span>
+          <div class="review__bubble">Bought this for the first time and wouldn't buy again. Was not expecting the blush color that came out and, for me, a little sweet. It is, neverthless, a palatable drink for all that.</div>
+          <button type="button" class="review__btn likeBtn">Like</button><span class="review__like-count">You and 5 other people like this</span>
+      </div>
+      <!-- Review End-->
+
+      <!-- Comment Start-->
+      <div class="review review--comment">
+          <span class="review__title">John Thomas</span><span class="review__time-duration">Yesterday</span>
+          <div class="review__bubble">I'm sorry to hear you didn't enjoy it Jimbo. It does not need  to be opened about an hour before drinking to give it some air and time to warm up to room temperature.</div>
+          <button type="button" class="review__btn likeBtn review__btn--outline-only">Like</button><span class="review__like-count">1 person likes this</span>
+      </div>
+      <!-- Commnet End-->
+
+      <!-- Commnet Box Start-->
+      <div class="review review--comment">
+          <div class="review__bubble review__bubble--comment">
+            <input type="text" class="review__input" placeholder="Write a comment"/>
+          </div>
+          <button type="button" class="review__btn review__btn--right review__btn--big">Send</button>
+          <div class="clearfix"></div>
+      </div>
+      <!-- Commnet Box End-->
+
+      <!-- Add new review Start-->
+      <div id="addReview"></div>
+      <!-- Add new review End-->
+
+      <!-- Review Heading Start-->
+      <div class="review">
+        <hr class="heading-line" />
+         <h1 class="review__heading">Write your own review</h1>
+      </div>
+      <!-- Review Heading End-->
+
+      <!-- Review Input Field Start-->
+      <div class="review">
+          <div class="review__bubble review__bubble--comment">
+            <input type="text" id="addReviewTxt" class="review__input" placeholder="Write a comment"/>
+          </div>
+          <button type="button" id="addReviewBtn" class="review__btn review__btn--right review__btn--big">Leave a review</button>
+          <div class="clearfix"></div>
+      </div>
+      <!-- Review Input field End-->
+  </div>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
