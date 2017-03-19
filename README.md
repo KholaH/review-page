@@ -1,4 +1,5 @@
-#Add Review Functionality
+<b><h2>Add Review Page</h2></b>
+
 Created review page using BEM naming convention.
 
 No third party librarires used for CSS, all css coded from scratch and is in style.css.
